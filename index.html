@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorvete do Lukas</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header id="cabecalho" class="sticky-top">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="Logo">
+                    <img src="./imagens/LogoSorvete.webp" alt="Imagem de um sorvete" class="img-thumbnail">
+                    <h1>Sorvete do Lukas</h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a href="#inicio" class="nav-link active">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#produtos" class="nav-link">Produtos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <div class="container">
+            <section id="inicio">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./imagens/sorvete5.jpg" class="d-block w-100 img-thumbnail" alt="Sorevte de Morango">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagens/Sorvete6.jpg" class="d-block w-100 img-thumbnail" alt="Sorvete de Morango">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagens/sorvete7.jpg" class="d-block w-100 img-thumbnail" alt="Máquina de Sorvete">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagens/Sorvete4.jpg" class="d-block w-100 img-thumbnail" alt="Máquina de Sorvete">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+            </section>
+            <section id="produtos">
+                    <h2 class="text-lef">Produtos</h2>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="./imagens/Sorvete1.jpg" class="card-img-top" alt="Sorvete de Morango">
+                                <div class="card-body">
+                                <h5 class="card-title">Sorvete de Morango</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quaerat iusto velit eius laborum. Beatae nostrum, mollitia molestias, velit explicabo tenetur quos, harum iure sequi exercitationem fuga obcaecati officia quam!</p>
+                                <b class="card-text">R$ 3,00</b>
+                                <p></p>
+                                <button type="button" class="btn btn-primary">Comprar</button>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col">
+                            <div class="card">
+                                <img src="./imagens/Sorvete2.jpg" class="card-img-top" alt="Combo de Sorvete">
+                                <div class="card-body">
+                                <h5 class="card-title">Combo de 3 casquinhas</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure officia consectetur nemo labore laborum tempore neque iusto et quisquam, sequi asperiores laboriosam, fugit blanditiis rem sit ipsum, sapiente eos impedit?</p>
+                                <b class="card-text">R$ 7,00</b>
+                                <p></p>
+                                <button type="button" class="btn btn-primary">Comprar</button>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col">
+                            <div class="card">
+                                <img src="./imagens/Sorvete3.jpg" class="card-img-top" alt="Bolo de sorvete">
+                                <div class="card-body">
+                                <h5 class="card-title">Bolo de sorvete</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero, nulla quidem quis aspernatur nemo exercitationem nam rerum dicta officiis perspiciatis fugiat molestias ratione officia necessitatibus. Alias inventore veritatis placeat.</p>
+                                <b class="card-text">R$ 50,00</b>
+                                <p></p>
+                                <button type="button" class="btn btn-primary">Comprar</button>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+            </section>
+            <section id="rede">
+                <h2>Redes Sociais</h2>
+                <p></p>
+                <div class="d-flex justify-content-0 gap-3">
+                    <a href="" target="_blank">
+                        <img src="./imagens/facebook.jpg" alt="Logo facebook" class="img-fluid rounded">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="./imagens/instagram.png" alt="Logo instagram" class="img-thumbnail">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="./imagens/whats.jpeg" alt="Logo Whatsapp" class="img-thumbnail">
+                    </a>         
+                    <a href="" target="_blank">
+                        <img src="./imagens/x.png" alt="Logo do x" class="img-thumbnail">
+                    </a> 
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <div class="text-center p-4" id="rodape" style="background-color: #136eca; color:white">
+            © 2025 Sorvete do Lukas. Todos os direitos reservados - Desenvolvido por Lucas Marques
+        </div>
+    </footer>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

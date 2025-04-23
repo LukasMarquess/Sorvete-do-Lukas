@@ -1,0 +1,122 @@
+.Logo{
+    display: flex;
+    align-items: center;
+}
+
+.Logo img{
+    width: 100%;
+    height: auto;
+    max-width: 80px;
+    margin-right: 10px;
+}
+
+.nav-item a{
+    font-size: 1.2em;
+}
+
+header{
+    border-bottom: 1px solid #136eca;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+h1, h2{
+    color: #136eca;
+}
+
+h2{
+    padding-bottom: 10px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 700px;
+}
+
+#inicio{
+    margin-top: 20px;
+}
+
+#inicio img{
+    width: 100%;
+    height: 750px;
+}
+
+#produtos{
+    padding-top: 20px;
+}
+
+#produtos img{
+    width: 100%;
+    height: 500px;
+}
+
+.card p, .card b{
+    font-size: 1.2em;
+}
+
+.card button:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#rede h2{
+    padding-top: 20px;
+}
+
+#rede img{
+    width: 100%;
+    height: 60px;
+}
+
+footer{
+    background-color: #136eca;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+footer p{
+    padding: 20px;
+}
+
+@media screen and (max-width: 640px){
+    
+    .carousel-item img{
+        height: 300px;
+    }
+
+    .nav{
+        margin-top: 12px;
+    }
+
+    .Logo img{
+        max-width: 50px;
+        margin-right: 10px;
+    }
+
+    #inicio img{
+        height: 500px;
+    }
+}
+
+@media screen  and (max-width: 1023px) and (min-width: 641px){
+    
+    .carousel-item img{
+        height: 500px;
+    }
+
+    .nav{
+        margin-top: 12px;
+    }
+
+    .Logo img{
+        max-width: 70px;
+        margin-right: 10px;
+    }
+
+    #inicio img{
+        height: 500px;
+    }
+}
